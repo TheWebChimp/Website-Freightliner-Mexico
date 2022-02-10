@@ -36,7 +36,11 @@
 				<div class="inner boxfix-vert">
 					<div class="m-default">
 						<ul class="menu">
-							<li class="menu-item"><a href="#">Productos</a></li>
+							<li
+								class="menu-item"
+							>
+								<a href="#">Productos</a>
+							</li>
 							<li class="menu-item"><a href="#">Distribuidores</a></li>
 							<li class="menu-item"><a href="#">Postventa</a></li>
 							<li class="menu-item"><a href="#">Financiamiento</a></li>
@@ -44,6 +48,50 @@
 							<li class="menu-item"><a href="#">Vans</a></li>
 							<li class="menu-item"><a href="#">Careers</a></li>
 						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="header-productos"
+				:class="{ active: products }"
+			>
+				<div class="inner">
+					<div class="row">
+						<div class="col">
+							<article class="producto">
+								<div class="producto-image"><img src="~/assets/images/template/home/menu-nuevo-cascadia.jpg" alt="Cascadia"></div>
+								<h3>Cascadia</h3>
+							</article>
+						</div>
+
+						<div class="col">
+							<article class="producto">
+								<div class="producto-image"><img src="~/assets/images/template/home/menu-114.jpg" alt="114SD"></div>
+								<h3>114SD</h3>
+							</article>
+						</div>
+
+						<div class="col">
+							<article class="producto">
+								<div class="producto-image"><img src="~/assets/images/template/home/menu-cascadia.jpg" alt="Cascadia Clásico"></div>
+								<h3>Cascadia Clásico</h3>
+							</article>
+						</div>
+
+						<div class="col">
+							<article class="producto">
+								<div class="producto-image"><img src="~/assets/images/template/home/menu-m2.jpg" alt="M2"></div>
+								<h3>M2</h3>
+							</article>
+						</div>
+
+						<div class="col">
+							<article class="producto">
+								<div class="producto-image"><img src="~/assets/images/template/home/menu-360s.jpg" alt="Familia 360"></div>
+								<h3>Familia 360</h3>
+							</article>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -105,10 +153,14 @@
 </template>
 
 <script>
+
 	export default {
 		data: () => ({
-			menuActive: false
+			menuActive: false,
+			products: false
 		}),
+		methods: {
+		}
 	}
 </script>
 
@@ -171,7 +223,7 @@
 		position: fixed;
 		left: 0;
 		top: 0;
-		z-index: 100;
+		z-index: 1000;
 		width: 100%;
 		color: white;
 
@@ -278,6 +330,21 @@
 				}
 			}
 		}
+
+		.header-productos {
+
+			background: @brand-3;
+			padding: @margin-default 0;
+			color: black;
+			z-index: -1;
+			transition: margin-top 500ms;
+			margin-top: -100vh;
+
+			&.active {
+
+				margin-top: 0;
+			}
+		}
 	}
 
 	section {
@@ -286,6 +353,17 @@
 		min-width: 100%;
 		display: flex !important;
 		flex: 1 0 auto;
+		padding-top: 56px;
+
+		@media @md-n-above {
+
+			padding-top: 121px;
+		}
+
+		@media @lg-n-above {
+
+			padding-top: 159px;
+		}
 
 		& > div {
 

@@ -4329,6 +4329,11 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hover-intent-vue@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hover-intent-vue/-/hover-intent-vue-1.0.0.tgz#3b73fa6d2e6279bd3afc91e489a3637573540cbf"
+  integrity sha512-Ve7CtCMsxtwIxQCYg/+gfKY9URLOxm4zearKXEyTWu7afHMovCNOYu4Jty8H/NmgeDciEk4Mu1ewNS9oJUyPNQ==
+
 hsl-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hsl-regex/-/hsl-regex-1.0.0.tgz#d49330c789ed819e276a4c0d272dffa30b18fe6e"
@@ -8487,6 +8492,10 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
+"v-wow@https://github.com/guisoares2011/vue-wow":
+  version "1.2.1"
+  resolved "https://github.com/guisoares2011/vue-wow#dd06e2d2611be6635b9cc8ca329a0244f792d04e"
+
 vary@^1.1.2, vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -8612,7 +8621,18 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.6.10, vue@^2.6.12, vue@^2.6.14:
+"vue-waypoint@https://github.com/scaccogatto/vue-waypoint.git#vue2":
+  version "3.5.2"
+  resolved "https://github.com/scaccogatto/vue-waypoint.git#a9397bc676406324f7f9b36b5470b959b35e5da0"
+  dependencies:
+    vue "^2.5.2"
+
+vue2-hover-intent@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vue2-hover-intent/-/vue2-hover-intent-1.0.3.tgz#6691cba0dc02eb6d092d09238420685992074a70"
+  integrity sha512-vdrKNbP8JX4WWufZbvsfbTQF8hc7yMKVTu8E/UPePmGuXlLZzMbRUXmN8qplnAbre1v1eAOY30XvokarSKsx3w==
+
+vue@^2.5.2, vue@^2.6.10, vue@^2.6.12, vue@^2.6.14:
   version "2.6.14"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
