@@ -34,7 +34,7 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: [],
+	css: [ '~assets/styles/chimplate/chimplate.less' ],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
@@ -44,7 +44,22 @@ export default {
 	// Components CSS
 	styleResources: {
 		less: [
-			'~assets/styles/chimplate/chimplate.less'
+			'~assets/styles/chimplate/variables/animations.less',
+			'~assets/styles/chimplate/variables/aspects.less',
+			'~assets/styles/chimplate/variables/borders.less',
+			'~assets/styles/chimplate/variables/spacing.less',
+			'~assets/styles/chimplate/variables/easings.less',
+			'~assets/styles/chimplate/variables/fonts.less',
+			'~assets/styles/chimplate/variables/gradients.less',
+			'~assets/styles/chimplate/variables/media.less',
+			'~assets/styles/chimplate/variables/shadows.less',
+			'~assets/styles/chimplate/variables/sizes.less',
+			'~assets/styles/chimplate/variables/z-index.less',
+			'~assets/styles/chimplate/project-variables.less',
+			'~assets/styles/chimplate/variables/semantics.less',
+			'~assets/styles/chimplate/base/mixins.less',
+			'~assets/styles/chimplate/utilities/typography.less',
+			'~assets/styles/chimplate/base/helpers.less'
 		]
 	},
 

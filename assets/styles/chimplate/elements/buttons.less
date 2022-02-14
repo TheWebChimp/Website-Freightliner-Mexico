@@ -43,6 +43,7 @@
 		background: @primary;
 		border-color: @primary;
 
+		&.hover,
 		&:hover {
 
 			background: @primary-dark;
@@ -57,6 +58,7 @@
 		color: @primary;
 		border-color: @primary;
 
+		&.hover,
 		&:hover {
 
 			color: white;
@@ -70,6 +72,7 @@
 		border-color: transparent;
 		background-color: transparent;
 
+		&.hover,
 		&:hover {
 
 			text-decoration: underline;
@@ -214,6 +217,7 @@
 	.cf();
 	display: inline-block;
 	border-radius: @button-border-radius;
+	display: flex;
 
 	& > .button {
 
@@ -223,7 +227,6 @@
 
 	& > * {
 
-		float: left;
 		border-radius: 0;
 		margin: 0 !important;
 		margin-left: -1px;
@@ -238,21 +241,6 @@
 
 			border-top-right-radius: @button-border-radius;
 			border-bottom-right-radius: @button-border-radius;
-		}
-	}
-
-	&.button-group-flex {
-
-		display: flex;
-
-		@media @md-n-above {
-
-			flex-wrap: nowrap;
-		}
-
-		& > * {
-
-			flex: 1 0 auto;
 		}
 	}
 }

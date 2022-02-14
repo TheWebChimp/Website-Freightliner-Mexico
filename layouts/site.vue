@@ -4,12 +4,14 @@
 			<div class="header-bar-1">
 				<div class="inner">
 					<div class="px-default py-half">
-						<img class="logo" src="~/assets/images/template/logo.png" alt="Freightliner">
+						<nuxt-link to="/">
+							<img class="logo" src="~/assets/images/template/logo.png" alt="Freightliner">
+						</nuxt-link>
 
 						<nav class="site-navigation">
 							<ul class="menu">
-								<li class="menu-item"><a href="#">¿Por qué Freightliner?</a></li>
-								<li class="menu-item"><a href="#">Empresa</a></li>
+								<li class="menu-item"><nuxt-link to="/por-que-freightliner">¿Por qué Freightliner?</nuxt-link></li>
+								<li class="menu-item"><nuxt-link to="/empresa">Empresa</nuxt-link></li>
 								<li class="menu-item"><a href="#">Multimedia</a></li>
 								<li class="menu-item"><a href="#">Contacto</a></li>
 								<li class="menu-item"><a href="#">Noticias</a></li>
@@ -41,12 +43,12 @@
 							>
 								<a href="#">Productos</a>
 							</li>
-							<li class="menu-item"><a href="#">Distribuidores</a></li>
-							<li class="menu-item"><a href="#">Postventa</a></li>
-							<li class="menu-item"><a href="#">Financiamiento</a></li>
-							<li class="menu-item"><a href="#">Seminuevo</a></li>
-							<li class="menu-item"><a href="#">Vans</a></li>
-							<li class="menu-item"><a href="#">Careers</a></li>
+							<li class="menu-item"><nuxt-link to="/distribuidores">Distribuidores</nuxt-link></li>
+							<li class="menu-item"><a href="https://postventa-freightliner.com/" target="_blank">Postventa</a></li>
+							<li class="menu-item"><nuxt-link to="/financiamiento">Financiamiento</nuxt-link></li>
+							<li class="menu-item"><a href="https://www.selectrucksmexico.com/" target="_blank">Seminuevo</a></li>
+							<li class="menu-item"><a href="https://www.mercedes-benz.com.mx/vans/es/sprinter" target="_blank">Vans</a></li>
+							<li class="menu-item"><a href="https://careersdaimler.com.mx/" target="_blank">Careers</a></li>
 						</ul>
 					</div>
 				</div>
@@ -105,13 +107,12 @@
 				<div class="inner boxfix-vert">
 					<div class="m-default">
 						<ul class="menu">
-							<li class="menu-item"><a href="#">Productos</a></li>
-							<li class="menu-item"><a href="#">Distribuidores</a></li>
-							<li class="menu-item"><a href="#">Postventa</a></li>
-							<li class="menu-item"><a href="#">Financiamiento</a></li>
-							<li class="menu-item"><a href="#">Seminuevo</a></li>
-							<li class="menu-item"><a href="#">Vans</a></li>
-							<li class="menu-item"><a href="#">Careers</a></li>
+							<li class="menu-item"><nuxt-link to="/distribuidores">Distribuidores</nuxt-link></li>
+							<li class="menu-item"><a href="https://postventa-freightliner.com/" target="_blank">Postventa</a></li>
+							<li class="menu-item"><nuxt-link to="/financiamiento">Financiamiento</nuxt-link></li>
+							<li class="menu-item"><a href="https://www.selectrucksmexico.com/" target="_blank">Seminuevo</a></li>
+							<li class="menu-item"><a href="https://www.mercedes-benz.com.mx/vans/es/sprinter" target="_blank">Vans</a></li>
+							<li class="menu-item"><a href="https://careersdaimler.com.mx/" target="_blank">Careers</a></li>
 						</ul>
 					</div>
 				</div>
@@ -138,12 +139,12 @@
 			</div>
 			<div class="footer-bar-3">
 				<div class="inner boxfix-vert">
-					<div class="m-default">
+					<div class="m-half">
 						<ul class="menu">
-							<li class="menu-item"><a href="#">Aviso de Privacidad</a></li>
-							<li class="menu-item"><a href="#">Uso de Cookies</a></li>
-							<li class="menu-item"><a href="#">Términos Legales</a></li>
-							<li class="menu-item"><a href="#">Formato Único de Ejercicio de Derechos</a></li>
+							<li class="menu-item"><nuxt-link to="/aviso-de-privacidad">Aviso de Privacidad</nuxt-link></li>
+							<li class="menu-item"><nuxt-link to="/uso-de-cookies">Uso de Cookies</nuxt-link></li>
+							<li class="menu-item"><nuxt-link to="/terminos-legales">Términos Legales</nuxt-link></li>
+							<li class="menu-item"><nuxt-link to="/formato-unico-de-ejercicio-de-derechos">Formato Único de Ejercicio de Derechos</nuxt-link></li>
 						</ul>
 					</div>
 				</div>
@@ -486,7 +487,7 @@
 					a {
 
 						text-align: center;
-						font-size: 0.8rem;
+						font-size: 0.75rem;
 						text-decoration: none;
 						display: block;
 						margin: @margin-half;

@@ -24,39 +24,39 @@
 					<h2 class="block-title">Productos</h2>
 
 					<div class="row">
-						<div class="col col-4 col-xs-12">
-							<article class="producto">
+						<div class="col col-lg-4 col-xs-12">
+							<nuxt-link tag="article" to="/productos/nuevo-cascadia" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-nuevo-cascadia.jpg" alt="Cascadia"></div>
 								<h3>Cascadia</h3>
-							</article>
+							</nuxt-link>
 						</div>
 
-						<div class="col col-4 col-xs-12">
-							<article class="producto">
+						<div class="col col-lg-4 col-xs-12">
+							<nuxt-link tag="article" to="/productos/114sd" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-114.jpg" alt="114SD"></div>
 								<h3>114SD</h3>
-							</article>
+							</nuxt-link>
 						</div>
 
-						<div class="col col-4 col-xs-12">
-							<article class="producto">
+						<div class="col col-lg-4 col-xs-12">
+							<nuxt-link tag="article" to="/productos/cascadia" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-cascadia.jpg" alt="Cascadia Clásico"></div>
 								<h3>Cascadia Clásico</h3>
-							</article>
+							</nuxt-link>
 						</div>
 
-						<div class="col col-4 col-xs-12">
-							<article class="producto">
+						<div class="col col-lg-4 col-xs-12">
+							<nuxt-link tag="article" to="/productos/m2" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-m2.jpg" alt="M2"></div>
 								<h3>M2</h3>
-							</article>
+							</nuxt-link>
 						</div>
 
-						<div class="col col-4 col-xs-12">
-							<article class="producto">
+						<div class="col col-lg-4 col-xs-12">
+							<nuxt-link tag="article" to="/productos/fl-360" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-360s.jpg" alt="Familia 360"></div>
 								<h3>Familia 360</h3>
-							</article>
+							</nuxt-link>
 						</div>
 					</div>
 
@@ -84,7 +84,6 @@
 
 			//AOS.init();
 		},
-		methods: {}
 	}
 </script>
 
