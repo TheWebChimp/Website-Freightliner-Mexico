@@ -236,3 +236,51 @@ table.table {
 	}
 }
 
+.product-navigation {
+
+	width: 100%;
+
+	.menu {
+
+		white-space: nowrap;
+		display: block;
+		overflow-x: scroll;
+
+		@media @md-n-above {
+
+			overflow-x: visible;
+			white-space: normal;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.menu-item {
+
+			.cf;
+
+			@media @md-n-below {
+
+				display: inline-block;
+			}
+
+			a {
+
+				text-transform: uppercase;
+				font-weight: bold;
+				text-align: center;
+				font-size: 0.8rem;
+				text-decoration: none;
+				display: block;
+				margin: 0 @margin-half;
+				color: white;
+				padding: @margin-default;
+
+				&.nuxt-link-exact-active {
+
+					background: fade(black, 25%);
+				}
+			}
+		}
+	}
+}
