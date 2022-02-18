@@ -121,6 +121,12 @@
 					color: white;
 					padding: @margin-default;
 
+					@media @md-n-below {
+
+						margin: 0;
+						padding: @margin-default @margin-half;
+					}
+
 					&.nuxt-link-exact-active {
 
 						background: fade(black, 25%);

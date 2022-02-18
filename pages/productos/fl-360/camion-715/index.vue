@@ -3,39 +3,32 @@
 		<nav class="product-navigation">
 			<div class="inner">
 				<ul class="menu">
-					<li class="menu-item"><nuxt-link to="/productos/fl-360">Camión 360 715</nuxt-link></li>
-					<li class="menu-item"><nuxt-link to="/productos/fl-360/360-917-1217">Camión 360 917 y 1217</nuxt-link></li>
-					<li class="menu-item"><nuxt-link to="/productos/m2/360-2528">Camión 360 2528</nuxt-link></li>
+					<li class="menu-item"><nuxt-link to="/productos/fl-360/camion-715">Modelo</nuxt-link></li>
+					<li class="menu-item"><nuxt-link to="/productos/fl-360/camion-715/aplicaciones">Aplicaciones</nuxt-link></li>
+					<li class="menu-item"><nuxt-link to="/productos/fl-360/camion-715/ventajas">Ventajas</nuxt-link></li>
+					<li class="menu-item"><nuxt-link to="/productos/fl-360/camion-715/dimensiones">Dimensiones</nuxt-link></li>
+					<li class="menu-item"><nuxt-link to="/productos/fl-360/camion-715/datos-tecnicos">Datos Técnicos</nuxt-link></li>
+					<li class="menu-item"><nuxt-link to="/productos/fl-360/camion-715/manuales">Manuales</nuxt-link></li>
 				</ul>
 			</div>
 		</nav>
+		<nuxt-child />
 	</div>
 </template>
 
 <script>
-
-	import AOS from 'aos';
-	import 'aos/dist/aos.css';
-
 	export default {
-		name: 'FL 360',
 		layout: 'site',
-		mounted() {
-
-			//AOS.init();
-		},
+		mounted() {},
 		methods: {}
 	}
 </script>
 
 <style scoped lang="less">
 
-	.block-producto {
+	.product-navigation {
 
-		padding: @margin-double 0;
-
-		.the-content {
-		}
+		background: @brand-1;
 	}
 
 
