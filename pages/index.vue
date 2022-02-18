@@ -2,10 +2,22 @@
 	<div>
 		<div class="block block-splash">
 			<slick class="splash-carrousel">
-				<div><img src="~/assets/images/template/slide1.jpg" alt=""></div>
-				<div><img src="~/assets/images/template/slide2.jpg" alt=""></div>
-				<div><img src="~/assets/images/template/slide3.jpg" alt=""></div>
-				<div><img src="~/assets/images/template/slide4.jpg" alt=""></div>
+				<div>
+					<img class="show-desktop" src="~/assets/images/template/slide1.jpg" alt="">
+					<img class="show-mobile" src="~/assets/images/template/slide1-mobile.jpg" alt="">
+				</div>
+				<div>
+					<img class="show-desktop" src="~/assets/images/template/slide2.jpg" alt="">
+					<img class="show-mobile" src="~/assets/images/template/slide2-mobile.jpg" alt="">
+				</div>
+				<div>
+					<img class="show-desktop" src="~/assets/images/template/slide3.jpg" alt="">
+					<img class="show-mobile" src="~/assets/images/template/slide3-mobile.jpg" alt="">
+				</div>
+				<div>
+					<img class="show-desktop" src="~/assets/images/template/slide4.jpg" alt="">
+					<img class="show-mobile" src="~/assets/images/template/slide4-mobile.jpg" alt="">
+				</div>
 
 				<template #prevArrow="arrowOption">
 					<a><i class="fa fa-fw fa-angle-left" /></a>
@@ -87,6 +99,26 @@
 
 <style scoped lang="less">
 
+	.show-mobile {
+
+		display: block !important;
+
+		@media @md-n-above {
+
+			display: none !important;
+		}
+	}
+
+	.show-desktop {
+
+		display: none !important;
+
+		@media @md-n-above {
+
+			display: block !important;
+		}
+	}
+
 	.splash-carrousel {
 
 		img {
@@ -108,10 +140,16 @@
 			position: absolute;
 			top: 50%;
 			margin-top: -40/2px;
-			z-index: 100;
+			z-index: 10;
 
 			&.slick-prev { left: @margin-double; }
 			&.slick-next { right: @margin-double; }
+
+			@media @md-n-above {
+
+				&.slick-prev { left: @margin-quad; }
+				&.slick-next { right: @margin-quad; }
+			}
 		}
 	}
 

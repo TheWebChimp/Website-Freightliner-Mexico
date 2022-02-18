@@ -493,7 +493,7 @@
 		top: 50%;
 		right: -1px;
 		margin-top: -239px/2;
-		z-index: 10;
+		z-index: 50;
 		font-weight: bolder;
 		transform-origin: 100% 100%;
 		transform: rotate(-90deg);
