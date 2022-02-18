@@ -12,7 +12,7 @@
 					<form action="">
 
 							<div class="row">
-								<div class="col col-3 col-xs-12">
+								<div class="col col-sm-3 col-xs-12">
 									<div class="form-group">
 										<label for="saludo" class="control-label">Saludo <span class="required">*</span></label>
 										<select name="saludo" id="saludo" class="input-block form-control" data-validate="required">
@@ -28,19 +28,19 @@
 											</select>
 									</div>
 								</div>
-								<div class="col col-3 col-xs-12">
+								<div class="col col-sm-3 col-xs-12">
 									<div class="form-group">
 										<label for="nombre" class="control-label">Nombre <span class="required">*</span></label>
 										<input type="text" name="nombre" id="nombre" value="" class="input-block form-control" data-validate="required">
 									</div>
 								</div>
-								<div class="col col-3 col-xs-12">
+								<div class="col col-sm-3 col-xs-12">
 									<div class="form-group">
 										<label for="apellido_paterno" class="control-label">Apellido Paterno <span class="required">*</span></label>
 										<input type="text" name="apellido_paterno" id="apellido_paterno" value="" class="input-block form-control" data-validate="required">
 									</div>
 								</div>
-								<div class="col col-3 col-xs-12">
+								<div class="col col-sm-3 col-xs-12">
 									<div class="form-group">
 										<label for="apellido_materno" class="control-label">Apellido Materno <span class="required">*</span></label>
 										<input type="text" name="apellido_materno" id="apellido_materno" value="" class="input-block form-control" data-validate="required">
@@ -49,19 +49,19 @@
 							</div>
 
 							<div class="row">
-								<div class="col col-4 col-xs-12">
+								<div class="col col-sm-4 col-xs-12">
 									<div class="form-group">
 										<label for="compania" class="control-label">Compañía <span class="required">*</span></label>
 										<input type="text" name="compania" id="compania" value="" class="input-block form-control" data-validate="required">
 									</div>
 								</div>
-								<div class="col col-4 col-xs-6">
+								<div class="col col-sm-4 col-xs-6">
 									<div class="form-group">
 										<label for="lada" class="control-label">Lada oficina</label>
 										<input type="text" name="lada" id="lada" value="" class="input-block form-control">
 									</div>
 								</div>
-								<div class="col col-4 col-xs-6">
+								<div class="col col-sm-4 col-xs-6">
 									<div class="form-group">
 										<label for="telefono" class="control-label">Teléfono oficina</label>
 										<input type="text" name="telefono" id="telefono" value="" class="input-block form-control">
@@ -70,19 +70,19 @@
 							</div>
 
 							<div class="row">
-								<div class="col col-4 col-xs-12">
+								<div class="col col-sm-4 col-xs-12">
 									<div class="form-group">
 										<label for="celular" class="control-label">Celular</label>
 										<input type="text" name="celular" id="celular" value="" class="input-block form-control">
 									</div>
 								</div>
-								<div class="col col-4 col-xs-12">
+								<div class="col col-sm-4 col-xs-12">
 									<div class="form-group">
 										<label for="correo" class="control-label">Correo electrónico <span class="required">*</span></label>
 										<input type="text" name="correo" id="correo" value="" class="input-block form-control" data-validate="required">
 									</div>
 								</div>
-								<div class="col col-4 col-xs-12">
+								<div class="col col-sm-4 col-xs-12">
 									<div class="form-group">
 										<label for="calle" class="control-label">Calle</label>
 										<input type="text" name="calle" id="calle" value="" class="input-block form-control">
@@ -103,7 +103,7 @@
 										<input type="text" name="numero_interior" id="numero_interior" value="" class="input-block form-control">
 									</div>
 								</div>
-								<div class="col col-4 col-xs-6">
+								<div class="col col-sm-4 col-xs-6">
 									<div class="form-group">
 										<label for="ciudad" class="control-label">Ciudad/Estado<span class="required">*</span></label>
 										<select name="ciudad" id="ciudad" data-validate="required" class="form-control input-block">
@@ -142,7 +142,7 @@
 										</select>
 									</div>
 								</div>
-								<div class="col col-4 col-xs-6">
+								<div class="col col-sm-4 col-xs-6">
 									<div class="form-group">
 										<label for="codigo" class="control-label">Código Postal</label>
 										<input type="text" name="codigo" id="codigo" value="" class="input-block form-control">
@@ -151,7 +151,7 @@
 							</div>
 
 							<div class="row">
-								<div class="col col-3 col-xs-12">
+								<div class="col col-sm-3 col-xs-12">
 									<div class="form-group">
 										<label for="interesado" class="control-label">Interesado en: <span class="required">*</span></label>
 										<select name="interesado" id="interesado" class="input-block form-control" data-validate="required">
@@ -162,13 +162,13 @@
 										</select>
 									</div>
 								</div>
-								<div class="col col-3 col-xs-12">
+								<div class="col col-sm-3 col-xs-12">
 									<div class="form-group">
 										<label for="numero" class="control-label">Número Unidades Interés: <span class="required">*</span></label>
 										<input type="text" name="numero" id="numero" value="" class="input-block form-control" data-validate="required">
 									</div>
 								</div>
-								<div class="col col-3 col-xs-6">
+								<div class="col col-sm-3 col-xs-6">
 									<div class="form-group">
 										<label for="dicision" class="control-label">División: <span class="required">*</span></label>
 										<select name="dicision" id="dicision" class="input-block form-control" data-validate="required">
@@ -179,7 +179,7 @@
 										</select>
 									</div>
 								</div>
-								<div class="col col-3 col-xs-6">
+								<div class="col col-sm-3 col-xs-6">
 									<div class="form-group">
 										<label for="sector" class="control-label">Sector <span class="required">*</span></label>
 										<select name="sector" id="sector" class="input-block form-control" data-validate="required">
@@ -249,7 +249,7 @@
 									</div>
 								</div>
 
-								<div class="col col-4 col-xs-12">
+								<div class="col col-sm-4 col-xs-12">
 									<div class="form-actions text-right">
 										<input
 											type="submit"

@@ -11,7 +11,7 @@
 						<li class="menu-item"><nuxt-link to="/productos/nuevo-cascadia/datos-tecnicos">Datos Técnicos</nuxt-link></li>
 						<li class="menu-item"><nuxt-link to="/productos/nuevo-cascadia/transmision">Transmisión</nuxt-link></li>
 						<li class="menu-item"><nuxt-link to="/productos/nuevo-cascadia/motores">Motores</nuxt-link></li>
-						<li class="menu-item"><nuxt-link to="/productos/nuevo-cascadia/configurador">Configurador</nuxt-link></li>
+						<li class="menu-item"><a href="https://www.freightliner.com.mx/configurador-cascadia/" target="_blank">Configurador</a></li>
 						<li class="menu-item"><nuxt-link to="/productos/nuevo-cascadia/manuales">Manuales</nuxt-link></li>
 					</ul>
 				</div>

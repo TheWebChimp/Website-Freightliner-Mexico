@@ -14,7 +14,7 @@
 								<li class="menu-item"><nuxt-link to="/empresa">Empresa</nuxt-link></li>
 								<li class="menu-item"><nuxt-link to="/multimedia">Multimedia</nuxt-link></li>
 								<li class="menu-item"><nuxt-link to="/contacto">Contacto</nuxt-link></li>
-								<li class="menu-item"><a href="#">Noticias</a></li>
+								<li class="menu-item"><nuxt-link to="/noticias/2019">Noticias</nuxt-link></li>
 								<!-- <li class="menu-item"><a href="#">Motorsport</a></li> -->
 							</ul>
 						</nav>

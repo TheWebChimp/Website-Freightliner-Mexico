@@ -131,6 +131,7 @@
 		.producto {
 
 			margin: 0 auto;
+			cursor: pointer;
 			margin-bottom: @margin-default;
 			max-width: 300px;
 
