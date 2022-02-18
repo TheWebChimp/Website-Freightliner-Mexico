@@ -29,7 +29,8 @@ export default {
 			{ type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.min.js' },
 			{ type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.ui.min.js' },
 			{ type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js' },
-			{ type: 'text/javascript', src: 'https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js' }
+			{ type: 'text/javascript', src: 'https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js' },
+			{ type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.2/jquery.hoverIntent.min.js' }
 		]
 	},
 

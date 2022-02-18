@@ -53,14 +53,12 @@
 						</div>
 
 						<div class="col col-lg-4 col-xs-12">
-							<nuxt-link tag="article" to="/productos/fl-360" class="producto">
+							<nuxt-link tag="article" to="/productos/fl-360/camion-715" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-360s.jpg" alt="Familia 360"></div>
 								<h3>Familia 360</h3>
 							</nuxt-link>
 						</div>
 					</div>
-
-
 				</div>
 			</div>
 

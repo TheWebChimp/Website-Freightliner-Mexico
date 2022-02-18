@@ -38,11 +38,7 @@
 				<div class="inner boxfix-vert">
 					<div class="m-default">
 						<ul class="menu">
-							<li
-								class="menu-item"
-							>
-								<a href="#">Productos</a>
-							</li>
+							<li class="menu-item menu-item-productos"><a href="#">Productos</a></li>
 							<li class="menu-item"><nuxt-link to="/distribuidores">Distribuidores</nuxt-link></li>
 							<li class="menu-item"><a href="https://postventa-freightliner.com/" target="_blank">Postventa</a></li>
 							<li class="menu-item"><nuxt-link to="/financiamiento">Financiamiento</nuxt-link></li>
@@ -61,38 +57,38 @@
 				<div class="inner">
 					<div class="row">
 						<div class="col">
-							<article class="producto">
+							<nuxt-link tag="article" to="/productos/nuevo-cascadia" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-nuevo-cascadia.jpg" alt="Cascadia"></div>
 								<h3>Cascadia</h3>
-							</article>
+							</nuxt-link>
 						</div>
 
 						<div class="col">
-							<article class="producto">
+							<nuxt-link tag="article" to="/productos/114sd" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-114.jpg" alt="114SD"></div>
 								<h3>114SD</h3>
-							</article>
+							</nuxt-link>
 						</div>
 
 						<div class="col">
-							<article class="producto">
+							<nuxt-link tag="article" to="/productos/cascadia" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-cascadia.jpg" alt="Cascadia Clásico"></div>
 								<h3>Cascadia Clásico</h3>
-							</article>
+							</nuxt-link>
 						</div>
 
 						<div class="col">
-							<article class="producto">
+							<nuxt-link tag="article" to="/productos/m2" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-m2.jpg" alt="M2"></div>
 								<h3>M2</h3>
-							</article>
+							</nuxt-link>
 						</div>
 
 						<div class="col">
-							<article class="producto">
+							<nuxt-link tag="article" to="/productos/fl-360/camion-715" class="producto">
 								<div class="producto-image"><img src="~/assets/images/template/home/menu-360s.jpg" alt="Familia 360"></div>
 								<h3>Familia 360</h3>
-							</article>
+							</nuxt-link>
 						</div>
 					</div>
 				</div>
@@ -283,6 +279,24 @@
 			products: false,
 			contactModal: false,
 		}),
+		mounted() {
+
+			const obj = this;
+
+			$(".menu-item-productos").hoverIntent(
+				function() {
+					obj.products = true;
+				},
+				function() {}
+			);
+
+			$('.header-productos').hoverIntent(
+				function() {},
+				function() {
+					obj.products = false;
+				}
+			);
+		},
 		methods: {
 		}
 	}
