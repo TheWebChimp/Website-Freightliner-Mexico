@@ -12,10 +12,10 @@
 							<ul class="menu">
 								<li class="menu-item"><nuxt-link to="/por-que-freightliner">¿Por qué Freightliner?</nuxt-link></li>
 								<li class="menu-item"><nuxt-link to="/empresa">Empresa</nuxt-link></li>
-								<li class="menu-item"><a href="#">Multimedia</a></li>
-								<li class="menu-item"><a href="#">Contacto</a></li>
+								<li class="menu-item"><nuxt-link to="/multimedia">Multimedia</nuxt-link></li>
+								<li class="menu-item"><nuxt-link to="/contacto">Contacto</nuxt-link></li>
 								<li class="menu-item"><a href="#">Noticias</a></li>
-								<li class="menu-item"><a href="#">Motorsport</a></li>
+								<!-- <li class="menu-item"><a href="#">Motorsport</a></li> -->
 							</ul>
 						</nav>
 
@@ -99,6 +99,128 @@
 			</div>
 		</header>
 
+		<a class="contact-button" @click.prevent="contactModal = true">
+			<i class="fa fa-envelope" />
+			CONTÁCTANOS AHORA
+		</a>
+
+		<div class="contact-modal-wrapper" v-show="contactModal">
+			<div class="contact-modal">
+				<div class="m-default">
+					<h2 class="block-title">CONTACTO</h2>
+					<div class="the-content mb-default">
+						<p>Apreciamos tus comentarios. Por favor llena el formulario y un ejecutivo de Freightliner se pondrá en contacto contigo.</p>
+					</div>
+					<form data-form="Uso de Formulario de contacto Popup" action="https://www.freightliner.com.mx/wp-admin/admin-ajax.php" method="post" data-submit="ajax">
+						<input type="hidden" name="action" value="contacto_producto">
+
+						<div class="row row-md">
+
+							<div class="col col-6 col-md-6">
+								<div class="form-group">
+									<label for="nombre" class="control-label">Nombre <span class="required">*</span></label>
+									<input type="text" name="nombre" id="nombre" value="" class="input-block form-control" data-validate="required">
+								</div>
+							</div>
+
+							<div class="col col-6 col-md-6">
+								<div class="form-group">
+									<label for="apellidos" class="control-label">Apellidos <span class="required">*</span></label>
+									<input type="text" name="apellidos" id="apellidos" value="" class="input-block form-control" data-validate="required">
+								</div>
+							</div>
+
+						</div>
+
+						<div class="row row-md">
+
+							<div class="col col-6 col-md-6">
+								<div class="form-group">
+									<label for="correo" class="control-label">Correo electrónico <span class="required">*</span></label>
+									<input type="text" name="correo" id="correo" value="" class="input-block form-control" data-validate="required">
+								</div>
+							</div>
+
+							<div class="col col-6 col-md-6">
+								<div class="form-group">
+									<label for="telefono" class="control-label">Teléfono </label>
+									<input type="text" name="telefono" id="telefono" value="" class="input-block form-control">
+								</div>
+							</div>
+
+						</div>
+
+						<div class="row row-md">
+							<div class="col col-12 col-md-12">
+								<div class="form-group">
+									<label for="ciudad" class="control-label">Ciudad <span class="required">*</span></label>
+									<select name="ciudad" id="ciudad" data-validate="required" class="form-control input-block">
+										<option value="">Ciudad</option>
+										<option value="Baja California">Baja California</option>
+										<option value="Baja California Sur">Baja California Sur</option>
+										<option value="Campeche">Campeche</option>
+										<option value="Coahuila de Zaragoza">Coahuila de Zaragoza</option>
+										<option value="Colima">Colima</option>
+										<option value="Chiapas">Chiapas</option>
+										<option value="Chihuahua">Chihuahua</option>
+										<option value="Distrito Federal">Distrito Federal</option>
+										<option value="Durango">Durango</option>
+										<option value="Guanajuato">Guanajuato</option>
+										<option value="Guerrero">Guerrero</option>
+										<option value="Hidalgo">Hidalgo</option>
+										<option value="Jalisco">Jalisco</option>
+										<option value="México">México</option>
+										<option value="Michoacán de Ocampo">Michoacán de Ocampo</option>
+										<option value="Morelos">Morelos</option>
+										<option value="Nayarit">Nayarit</option>
+										<option value="Nuevo León">Nuevo León</option>
+										<option value="Oaxaca">Oaxaca</option>
+										<option value="Puebla">Puebla</option>
+										<option value="Querétaro">Querétaro</option>
+										<option value="Quintana Roo">Quintana Roo</option>
+										<option value="San Luis Potosí">San Luis Potosí</option>
+										<option value="Sinaloa">Sinaloa</option>
+										<option value="Sonora">Sonora</option>
+										<option value="Tabasco">Tabasco</option>
+										<option value="Tamaulipas">Tamaulipas</option>
+										<option value="Tlaxcala">Tlaxcala</option>
+										<option value="Veracruz de Ignacio de la Llave">Veracruz de Ignacio de la Llave</option>
+										<option value="Yucatán">Yucatán</option>
+										<option value="Zacatecas">Zacatecas</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="row row-md">
+							<div class="col col-12 col-md-12">
+								<div class="form-group">
+									<label for="descripcion" class="control-label">¿Como podremos ayudarte?</label>
+									<textarea rows="4" cols="50" name="descripcion" id="descripcion" value="" class="input-block form-control"></textarea>
+								</div>
+							</div>
+						</div>
+
+						<div class="row row-md">
+							<div class="col col-12 col-md-12">
+								<div class="form-group">
+									<label class="checkbox">
+										<input type="checkbox" data-validate="required" class="datos" id="datos" name="datos">
+										<span>Autoriza el uso de sus datos personales</span>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-actions text-right">
+							<a href="#" @click.prevent="contactModal = false" class="button button-link">Cerrar</a>
+							<input type="submit" class="button button-primary" value="Enviar">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
 		<section>
 			<Nuxt />
 		</section>
@@ -158,7 +280,8 @@
 	export default {
 		data: () => ({
 			menuActive: false,
-			products: false
+			products: false,
+			contactModal: false,
 		}),
 		methods: {
 		}
@@ -344,6 +467,52 @@
 			&.active {
 
 				margin-top: 0;
+			}
+		}
+	}
+
+	.contact-button {
+
+		position: fixed;
+		cursor: pointer;
+		padding: @margin-half;
+		top: 50%;
+		right: -1px;
+		margin-top: -239px/2;
+		z-index: 10;
+		font-weight: bolder;
+		transform-origin: 100% 100%;
+		transform: rotate(-90deg);
+		background: #FFDA00;
+		border-color: #FFDA00;
+		color: @brand-1;
+
+		@media @md-n-above {
+
+			padding: @margin-default;
+		}
+	}
+
+	.contact-modal-wrapper {
+
+		z-index: 10000;
+		.overlay-element();
+		position: fixed;
+		overflow-y: auto;
+		background: fade(black, 50%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.contact-modal {
+
+			max-width: 90%;
+			width: 400px;
+			background: white;
+
+			.control-label {
+
+				font-size: 0.8rem;
 			}
 		}
 	}
