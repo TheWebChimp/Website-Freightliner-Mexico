@@ -6,6 +6,8 @@ import Vue from 'vue';
 import Vuelidate from 'vuelidate';
 Vue.use(Vuelidate);
 
+import cookieconsent from 'vue-cookieconsent-component';
+Vue.component('cookie-consent', cookieconsent);
 
 /* Other Stuff */
 /* ---------------------------------------------------------------------------------------------- */

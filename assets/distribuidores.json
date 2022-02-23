@@ -1,0 +1,715 @@
+
+[
+    {
+        "title": "Astrocamiones (Lerma)",
+        "content": "Lerma, Méx.\r\n\r\nCarr. México – Toluca Km. 50.5 Col. La Estación C.P. 52006 Tel: 01 (728) 2 82 99 08\r\n\r\n<a href=\"http://www.astrocamiones.com.mx/\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.astrocamiones.com.mx/</a>",
+        "marker": "astrocamiones-lerma",
+        "category": "mexico",
+        "lat": "19.28224737",
+        "lng": "-99.49914867"
+    },
+    {
+        "title": "Automóviles y Camiones Rivera (CAR Apizaco)",
+        "content": "Apizaco, Tlax.\r\n\r\nAv. Francisco I. Madero No. 1502 Col. San Miguel C.P. 90339 Tel: 01 (241) 4 17 21 88 y 4 17 88 74\r\n\r\n<a href=\"http://www.acrivera.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.acrivera.com.mx</a>",
+        "marker": "automoviles-y-camiones-rivera-car-apizaco",
+        "category": "tlaxcala",
+        "lat": "19.41742488",
+        "lng": "-98.14930505"
+    },
+    {
+        "title": "Automóviles y Camiones Rivera (CAR Tehuacán)",
+        "content": "Tehuacán, Pue.\r\n\r\nAv. Independencia Oriente No. 2365-A Fracc. Bosques de San Pedro C.P. 75780 Tel: 01 (238) 3 83 87 56\r\n\r\n<a href=\"http://www.acrivera.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.acrivera.com.mx</a>",
+        "marker": "automoviles-y-camiones-rivera-car-tehuacan",
+        "category": "puebla",
+        "lat": "18.46280939",
+        "lng": "-97.37589416"
+    },
+    {
+        "title": "Automóviles y Camiones Rivera (CAR Teziutlán)",
+        "content": "Teziutlán, Pue.\r\n\r\nProlongación de Mina No. 750 Col. Centro C.P. 73800 Tel: 01 (231) 3 13 59 16\r\n\r\n<a href=\"http://www.acrivera.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.acrivera.com.mx</a>",
+        "marker": "automoviles-y-camiones-rivera-car-teziutlan",
+        "category": "puebla",
+        "lat": "19.80876147",
+        "lng": "-97.36556272"
+    },
+    {
+        "title": "Automóviles y Camiones Rivera (Puebla)",
+        "content": "Puebla, Pue.\r\n\r\nAutopista México - Puebla No. 7520 Col. Ex-Rancho Moratilla C.P. 72110 Tel: 01 (222) 8 92 16 00\r\n\r\n<a href=\"http://www.acrivera.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.acrivera.com.mx</a>",
+        "marker": "automoviles-y-camiones-rivera-puebla",
+        "category": "puebla",
+        "lat": "19.10124348",
+        "lng": "-98.23407432"
+    },
+    {
+        "title": "Autotab (Cancún)",
+        "content": "Cancún, Q. Roo\r\n\r\nBlvd. Luis Donaldo Colosio No. 650 Col. Super Manzana 311, M-7, L-1. Benito Juárez C.P. 77560 Tel: 01 (998) 8 82 06 23 al 26\r\n\r\n<a href=\"http://www.autotab.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.autotab.mx</a>",
+        "marker": "autotab-cancun",
+        "category": "quintana-roo",
+        "lat": "21.11755265",
+        "lng": "-86.83706792"
+    },
+    {
+        "title": "Autotab (Mérida)",
+        "content": "Mérida, Yuc.\r\n\r\nCarr. Mérida - Uxmán Km. 7 Col. Ampliación Cd. Industrial C.P. 97288 Tel: 01 (999) 9 19 03 26 al 28\r\n\r\n<a href=\"http://www.autotab.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.autotab.mx</a>",
+        "marker": "autotab-merida",
+        "category": "yucatan",
+        "lat": "20.9173368",
+        "lng": "-89.70516617"
+    },
+    {
+        "title": "Autotab (Villahermosa)",
+        "content": "Villahermosa, Tab.\r\n\r\nCarlos Pellicer Camara No.2820 Col. Miguel Hidalgo, segunda etapa C.P. 86127 Tel: 01 (993) 3 50 22 20 al 22\r\n\r\n<a href=\"http://www.autotab.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.autotab.mx</a>",
+        "marker": "autotab-villahermosa",
+        "category": "tabasco",
+        "lat": "17.98154197",
+        "lng": "-92.97142109"
+    },
+    {
+        "title": "Autotab S.A. de C.V. (Campeche)",
+        "content": "CENTRO AUTORIZADO DE REFACCIONES\r\n\r\nDIRECCIÓN: Av. Héroes de Nacozari No. 14 Col. La Paz Campeche, Campeche C.P. 24050\r\n\r\nTEL: (981) 128 0681\r\n",
+        "marker": "autotab-s-a-de-c-v-campeche",
+        "category": "campeche",
+        "lat": "19.84179738",
+        "lng": "-90.51645534"
+    },
+    {
+        "title": "Camionera de Chihuahua",
+        "content": "Ave. Cristobal Colon (Carr Chih-Cd Juarez) #23040\r\n\r\nCol. Riberas del Sacramento",
+        "marker": "camionera-de-chihuahua",
+        "category": "chihuahua",
+        "lat": "28.77847803",
+        "lng": "-106.1714637"
+    },
+    {
+        "title": "Camionera de Chihuahua (CAR)",
+        "content": "Perif. Lombardo Toledano #7404-3\r\nCol. Aeropuerto",
+        "marker": "camionera-de-chihuahua-car",
+        "category": "chihuahua",
+        "lat": "28.64679078",
+        "lng": "-106.0194949"
+    },
+    {
+        "title": "Camionera de Chihuahua (Cd. Juárez)",
+        "content": "Cd. Juárez, Chih.\r\n\r\nLibramiento Aeropuerto No. 7639 Col. Puente Alto C.P. 32695 Tel: 01 (656) 2 32 51 45\r\n\r\n<a href=\"http://www.cachisa.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.cachisa.com.mx</a>",
+        "marker": "camionera-de-chihuahua-cd-juarez",
+        "category": "chihuahua",
+        "lat": "31.60764471",
+        "lng": "-106.4295948"
+    },
+    {
+        "title": "Camionera de Chihuahua (Chihuahua)",
+        "content": "Chihuahua, Chih.\r\n\r\nAv. Cristobal Colón 23040 Col. Ribera de Sacramento C.P. 31184 Tel: 01 (614) 4 59 22 50\r\n\r\n<a href=\"http://www.cachisa.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.cachisa.com.mx</a>",
+        "marker": "camionera-de-chihuahua-chihuahua",
+        "category": "chihuahua",
+        "lat": "28.71446179",
+        "lng": "-106.1360374"
+    },
+    {
+        "title": "CAMIONERA DE CHIHUAHUA S.A DE C.V. (CAR PARRAL, CHIH)",
+        "content": "CENTRO AUTORIZADO DE REFACCIONES\r\nAvenida Independencia 409 Col. Hidalgo del Parral Centro Hidalgo del Parral, Chihuahua C.P. 33800\r\n\r\nTeléfonos:\r\n01 (627) 523 0251\r\n01 (627) 523 0710\r\n",
+        "marker": "camionera-de-chihuahua-s-a-de-c-v-car-parral-chih",
+        "category": "chihuahua",
+        "lat": "26.92811538",
+        "lng": "-105.6492262"
+    },
+    {
+        "title": "Camiones Especiales (CAR Santa Rosa)",
+        "content": "Tlalnepantla de Baz, EDOMEX. C.P. 54168\r\nAv. Santa Rosa #58, San Juan Ixtacala Plano Norte Tel. 55 5587 7107\r\n\r\n<a href=\"https://camionespeciales.com/\">https://camionespeciales.com/</a>",
+        "marker": "camiones-especiales-car-santa-martha",
+        "category": "estado-de-mexico",
+        "lat": "19.5283236",
+        "lng": "-99.175908"
+    },
+    {
+        "title": "Camiones Especiales (Cuautitlán)",
+        "content": "Cuautitlán Izcalli, EDOMEX\r\n\r\nAutopista México-Querétaro Km. 40.5 Col. Parque Industrial La Luz C.P. 54730 Tel: 55 3336 0105 al 16\r\n\r\n<a href=\"http://www.camionespeciales.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.camionespeciales.com</a>",
+        "marker": "camiones-especiales-cuautitlan",
+        "category": "estado-de-mexico",
+        "lat": "19.6931264",
+        "lng": "-99.20301341"
+    },
+    {
+        "title": "Camiones Especiales (Vallejo)",
+        "content": "Azcapotzalco, CDMX\r\n\r\nCalzada Vallejo No. 820, Col Industrial Vallejo C.P. 02300 Tel: 55 53 33 60 02\r\n\r\n<a href=\"http://www.camionespeciales.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.camionespeciales.com</a>",
+        "marker": "camiones-especiales-vallejo",
+        "category": "mexico",
+        "lat": "19.49594269",
+        "lng": "-99.15477812"
+    },
+    {
+        "title": "Camiones Oaxaca",
+        "content": "Oaxaca, Oax.\r\n\r\nAv. Universidad No. 160 Col. Ex-Hacienda Candiani C.P. 68130 Tel: 01 (951) 5 01 58 00\r\n\r\n<a href=\"http://grupoacosa.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://grupoacosa.com</a>",
+        "marker": "camiones-oaxaca",
+        "category": "oaxaca",
+        "lat": "17.03678683",
+        "lng": "-96.71119028"
+    },
+    {
+        "title": "Camiones Oaxaca (CAR Tuxtepec)",
+        "content": "Tuxtepec, Oax.\r\n\r\nCarr. Federal Puente Caracol Esq. Muro S/N Blvd. Francisco Fdez. Arteaga C.P. 68300 Tel: 01 (287) 8 77 82 40\r\n\r\n<a href=\"http://grupoacosa.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://grupoacosa.com</a>",
+        "marker": "camiones-oaxaca-car-tuxtepec",
+        "category": "oaxaca",
+        "lat": "18.09019776",
+        "lng": "-96.13215692"
+    },
+    {
+        "title": "Camiones Vence (CAR La Paz)",
+        "content": "La Paz, B.C.S.\r\nAv. Universidad S/N Col. Calandrio C.P. 23085 Tel: 01 (612) 1 28 00 77\r\n\r\n<a href=\"http://www.camionesvence.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.camionesvence.com</a>",
+        "marker": "camiones-vence-car-la-paz",
+        "category": "baja-california-sur",
+        "lat": "24.09804661",
+        "lng": "-110.3216485"
+    },
+    {
+        "title": "Camiones Vence (Culiacán)",
+        "content": "Culiacán,Sin.\r\n\r\nBlvd. Jesús Kumate Rodríguez no. 4915 Col. Hacienda de la Mora C.P. 80145 Tel: 01 (667) 8 46 50 00\r\n\r\n<a href=\"http://www.camionesvence.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.camionesvence.com</a>",
+        "marker": "camiones-vence-culiacan",
+        "category": "sinaloa",
+        "lat": "24.76686391",
+        "lng": "-107.4476033"
+    },
+    {
+        "title": "Camiones Vence (Los Mochis)",
+        "content": "Los Mochis, Sin.\r\nBlvd. Adolfo López Mateos No. 3504 Nte. Col. Miguel Hidalgo C.P. 81210 Tel: 01 (668) 8 15 40 80\r\n\r\n<a href=\"http://www.camionesvence.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.camionesvence.com</a>",
+        "marker": "camiones-vence-los-mochis",
+        "category": "sinaloa",
+        "lat": "25.81770213",
+        "lng": "-108.9757901"
+    },
+    {
+        "title": "Camiones Vence (Mazatlán)",
+        "content": "Mazatlán, Sin.\r\nCarr. Internacional al Sur No. 5621 Col. Esperanza C.P. 82180 Tel: 01 (669) 9 88 65 30 y 31\r\n\r\n<a href=\"http://www.camionesvence.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.camionesvence.com</a>",
+        "marker": "camiones-vence-mazatlan",
+        "category": "sinaloa",
+        "lat": "23.23382186",
+        "lng": "-106.3973609"
+    },
+    {
+        "title": "Camiones Vence (San José del Cabo)",
+        "content": "Los Cabos San Lucas B.C.S\r\n\r\nAv. De las Brisas No. 5205 Col. Lomas del Pacífico, C.P. 23473 Tel: 01 (624) 1 72 50 24 y 25\r\n\r\n<a href=\"http://www.camionesvence.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.camionesvence.com</a>",
+        "marker": "camiones-vence-san-jose-del-cabo",
+        "category": "baja-california-sur",
+        "lat": "22.87388029",
+        "lng": "-109.9235476"
+    },
+    {
+        "title": "Camiones y Autobuses del Noroeste (CAR) (San Luis Río Colorado)",
+        "content": "Av. Obregón y Calle 27\r\n\r\nCol. Burocratas T.",
+        "marker": "camiones-y-autobuses-del-noroeste-car-san-luis-rio-colorado",
+        "category": "sonora",
+        "lat": "29.03563852",
+        "lng": "-110.9515582"
+    },
+    {
+        "title": "Camiones y Autobuses del Noroeste (Ensenada)",
+        "content": "Av. Pedro Loyola #473\r\n\r\nCol. Carlos Pacheco\r\n\r\n<a href=\"http://www.canorsa.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.canorsa.com</a>",
+        "marker": "camiones-y-autobuses-del-noroeste-ensenada",
+        "category": "baja-california",
+        "lat": "31.84347983",
+        "lng": "-116.607639"
+    },
+    {
+        "title": "Camiones y Autobuses del Noroeste (Mexicali)",
+        "content": "Mexicali, B.C.\r\nCarr. a Tijuana No. 2246 Parque Industrial Progreso C.P. 21190 Tel: 01 (686) 5 55 25 00\r\n\r\n<a href=\"http://www.canorsa.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.canorsa.com</a>",
+        "marker": "camiones-y-autobuses-del-noroeste-mexicali",
+        "category": "baja-california",
+        "lat": "32.62038685",
+        "lng": "-115.5064127"
+    },
+    {
+        "title": "Camiones y Autobuses del Noroeste (Tijuana)",
+        "content": "Blvd. Bellas Artes No. 5317 y Calle 3 Norte Col. Ciudad Industrial C.P. 22444 Tijuana, B.C.\r\n\r\n(664) 7017705\r\n\r\n<a href=\"http://www.canorsa.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.canorsa.com</a>",
+        "marker": "camiones-y-autobuses-del-noroeste-tijuana",
+        "category": "baja-california",
+        "lat": "32.54608782",
+        "lng": "-116.9163864"
+    },
+    {
+        "title": "Camiones y Tractocamiones de Michoacán",
+        "content": "Periférico Paseo de la República 4300\r\n\r\nCol. Exhacienda San José La huerta",
+        "marker": "camiones-y-tractocamiones-de-michoacan",
+        "category": "michoacan",
+        "lat": "19.67746864",
+        "lng": "-101.2272087"
+    },
+    {
+        "title": "Camiones y Tractocamiones de Michoacán (CAR) San Juan del Rio",
+        "content": "Ing. Luis Romero Soto 20 B 1 y 2\r\n\r\nCol. Centro",
+        "marker": "camiones-y-tractocamiones-de-michoacan-car-san-juan-del-rio",
+        "category": "queretaro",
+        "lat": "20.37778094",
+        "lng": "-100.0032659"
+    },
+    {
+        "title": "CAMIONES Y TRACTOCAMIONES DE MICHOACÁN, S.A de C.V. (CAR LÁZARO CÁRDENAS, MICH)",
+        "content": "CENTRO AUTORIZADO DE REFACCIONES\r\n\r\nDIRECCIÓN: Blvrd. De las Islas No. 608 Col. Isla del Cayacal Lázaro Cárdenas, Mich. C.P. 60950\r\n\r\nTel: (443) 368 3752\r\n",
+        "marker": "camiones-y-tractocamiones-de-michoacan-s-a-de-c-v-car-lazaro-cardenas-mich",
+        "category": "michoacan",
+        "lat": "17.96518313",
+        "lng": "-102.2032147"
+    },
+    {
+        "title": "Camiones y Tractocamiones de Sonora",
+        "content": "Hermosillo, Son.\r\nBlvd. Manuel J. Clouthier No.174 Col. Adolfo de la Huerta C.P. 83295 Tel: 01 (662) 2 14 21 44, 2 14 22 59 y 2 14 32 03\r\n\r\n<a href=\"http://www.cytson.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.cytson.com</a>",
+        "marker": "camiones-y-tractocamiones-de-sonora",
+        "category": "sonora",
+        "lat": "29.02789489",
+        "lng": "-110.9597725"
+    },
+    {
+        "title": "Camiones y Tractocamiones de Sonora (CARS Obregón )",
+        "content": "Carretera internacional KM 15 No. 1853 Sur\r\n\r\n<a href=\"http://www.cytson.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.cytson.com</a>",
+        "marker": "camiones-y-tractocamiones-de-sonora-cars-obregon",
+        "category": "sonora",
+        "lat": "27.46002618",
+        "lng": "-109.9004804"
+    },
+    {
+        "title": "Camiones y Tractocamiones de Sonora (CARS) Nogales",
+        "content": "Carretera Internacional 15 s/n\r\n\r\nCol. Nuevo Nogales",
+        "marker": "camiones-y-tractocamiones-de-sonora-cars-nogales",
+        "category": "sonora",
+        "lat": "31.24082781",
+        "lng": "-110.963843"
+    },
+    {
+        "title": "Camiones y Tractocamiones de Sonora (Hermosillo)",
+        "content": "Blvd. Manuel J. Clouthier #174\r\n\r\nCol. Adolfo de la Huerta",
+        "marker": "camiones-y-tractocamiones-de-sonora-hermosillo",
+        "category": "sonora",
+        "lat": "29.02787613",
+        "lng": "-110.9598047"
+    },
+    {
+        "title": "CATRAMI Zamora",
+        "content": "Libramiento Oriente 7845\r\n\r\nCol. Zumpimito\r\n\r\n<a href=\"http://www.catrami.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.catrami.com</a>",
+        "marker": "catrami-zamora",
+        "category": "michoacan",
+        "lat": "19.37138767",
+        "lng": "-102.0540396"
+    },
+    {
+        "title": "CATRAMI Zamora (Uruapan)",
+        "content": "Uruapan, Mich.\r\nPaseo de la Revolución Esq. con Laureles, No. 5363, Fracc. Jardines del Bosque C.P. 60183 Tel: 01 (452) 5 28 52 27\r\n\r\n<a href=\"http://www.catrami.com\" taret= \"_blank\">http://www.catrami.com</a>",
+        "marker": "catrami-zamora-uruapan",
+        "category": "michoacan",
+        "lat": "19.37639007",
+        "lng": "-102.049707"
+    },
+    {
+        "title": "DIFRENOSA  S.A. DE C.V. (CAR ALLENDE)",
+        "content": "<p style=\"font-weight: 400;\"><strong>Carr. Nacional Km 22, No. 101, Col. La colmena,</strong></p>\r\n<p style=\"font-weight: 400;\"><strong>Allende, Nuevo León C.P.67383</strong></p>\r\nTel: <span lang=\"ES-MX\">+</span>52 81 8851 5000",
+        "marker": "difrenosa-s-a-de-c-v-car-allende",
+        "category": "nuevo-leon",
+        "lat": "25.7866003",
+        "lng": "-100.1589691"
+    },
+    {
+        "title": "DIFRENOSA ( Reynosa)",
+        "content": "Carretera Reynosa Matamoros Km 83.2 No.214\r\n\r\nCol. Bienestar Social\r\n\r\n<a href=\"http://difrenosa.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://difrenosa.com</a>",
+        "marker": "difrenosa-reynosa",
+        "category": "tamaulipas",
+        "lat": "26.01957911",
+        "lng": "-98.2242542"
+    },
+    {
+        "title": "DIFRENOSA (Monterrey)",
+        "content": "Apodaca, N. L.\r\nCarr. Miguel Aleman No. 1111 Entronque a Agua Fría C.P. 66600 Tel: 01 (81) 88 51 50 00\r\n\r\n<a href=\"http://difrenosa.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://difrenosa.com</a>",
+        "marker": "difrenosa-monterrey",
+        "category": "nuevo-leon",
+        "lat": "25.7866003",
+        "lng": "-100.1589799"
+    },
+    {
+        "title": "DIFRENOSA (Nuevo Laredo)",
+        "content": "Nuevo Laredo, Tamps.\r\nVilla de Hidalgo No. 120 Col. Granjas Guzmán C.P. 88293 Tel: 01 (86) 77 80 95 00 al 02\r\n\r\n<a href=\"http://difrenosa.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://difrenosa.com</a>",
+        "marker": "difrenosa-nuevo-laredo",
+        "category": "tamaulipas",
+        "lat": "27.40759443",
+        "lng": "-99.54085253"
+    },
+    {
+        "title": "DTM Diesel International (CAR-I)",
+        "content": "Ecatepec\r\nAvenida Nacional Kilometro 29.5 Ecatepec, Mexico Tel: 01(55) 59 38 85 70",
+        "marker": "dtm-diesel-international-car-i",
+        "category": "estado-de-mexico",
+        "lat": "19.64068747",
+        "lng": "-99.00292544"
+    },
+    {
+        "title": "Euro Centro Camionero (Aguascalientes)",
+        "content": "Aguascalientes, Ags.\r\nBlvd. A Zacatecas Nte. No. 807 Col. Trojes de Alonso C.P. 20116 Tel: 01 (449) 9 10 96 70 y 77\r\n\r\n<a href=\"http://www.eurocentrocamionero.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.eurocentrocamionero.com</a>",
+        "marker": "euro-centro-camionero-aguascalientes",
+        "category": "aguascalientes",
+        "lat": "21.91778818",
+        "lng": "-102.2924043"
+    },
+    {
+        "title": "Euro Centro Camionero (CAR Aguascalientes)",
+        "content": "Carr. Panamericana Sur Km. 121.9\r\n\r\nCol. San Francisco del Arenal\r\n\r\n<a href=\"http://www.eurocentrocamionero.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.eurocentrocamionero.com</a>",
+        "marker": "euro-centro-camionero-car-aguascalientes",
+        "category": "aguascalientes",
+        "lat": "21.82544677",
+        "lng": "-102.2880072"
+    },
+    {
+        "title": "Euro Centro Camionero (CARS Zacatecas)",
+        "content": "Carr. Panamericana Km. 7.8 Salida Norte\r\n\r\nCol. La Escondida\r\n\r\n<a href=\"http://www.eurocentrocamionero.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.eurocentrocamionero.com</a>",
+        "marker": "euro-centro-camionero-cars-zacatecas",
+        "category": "zacatecas",
+        "lat": "22.77657273",
+        "lng": "-102.6255321"
+    },
+    {
+        "title": "Euro Centro Camionero (Salamanca)",
+        "content": "Salamanca, Gto.\r\nBlvd. Valle de Santiago No. 2402 Rinconada del Parque C.P. 36780 Tel: 01 (464) 6 48 88 88\r\n\r\n<a href=\"http://www.eurocentrocamionero.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.eurocentrocamionero.com</a>",
+        "marker": "euro-centro-camionero-salamanca",
+        "category": "guanajuato",
+        "lat": "20.54171776",
+        "lng": "-101.2056337"
+    },
+    {
+        "title": "Euro Centro Camionero, S.A. de C.V.",
+        "content": "Irapuato, Guanajuato\r\nAv. Insurgentes 2604 Local A6 Col. Los Fresnos C.P. 36555 Tel: 01 (462) 623 7386\r\n\r\n<a href=\"http://www.eurocentrocamionero.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.eurocentrocamionero.com</a>",
+        "marker": "euro-centro-camionero-s-a-de-c-v",
+        "category": "guanajuato",
+        "lat": "20.65355039",
+        "lng": "-101.370994"
+    },
+    {
+        "title": "Gomsa Camiones ( Coatzacoalcos)",
+        "content": "Coatzacoalcos, Ver.\r\nCarr. Transístmica No. 900 Col. Centro C.P. 96400 Tel: 01 (921) 2 12 74 96\r\n\r\n<a href=\"http://www.gruvercamiones.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.gruvercamiones.mx</a>",
+        "marker": "gomsa-camiones-coatzacoalcos",
+        "category": "veracruz",
+        "lat": "18.14018581",
+        "lng": "-94.42603176"
+    },
+    {
+        "title": "Gomsa Camiones ( Poza Rica)",
+        "content": "Carretera Nacional México Tuxpan Km. 8\r\n\r\nCol. Lázaro Cárdenas\r\n\r\n<a href=\"http://www.gruvercamiones.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.gruvercamiones.mx</a>",
+        "marker": "gomsa-camiones-poza-rica",
+        "category": "veracruz",
+        "lat": "20.58834678",
+        "lng": "-97.49371718"
+    },
+    {
+        "title": "Gomsa Camiones (CAR Orizaba)",
+        "content": "Ixtaczoquitlán- Orizaba, Ver.\r\nBlvd. Fernando Gutiérrez Barrios Esq. Ruiz Galindo, No. 56 Fracc. Industrial C.P. 94450 Tel: 01 (272) 7 21 34 59\r\n\r\n<a href=\"http://www.gruvercamiones.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.gruvercamiones.mx</a>",
+        "marker": "gomsa-camiones-car-orizaba",
+        "category": "veracruz",
+        "lat": "18.85430435",
+        "lng": "-97.07712052"
+    },
+    {
+        "title": "Gomsa Camiones (CAR Veracruz)",
+        "content": "Av. Miguel Alemán No. 1291 A\r\n\r\nCol. Pacual Ortíz Rubio\r\n\r\n<a href=\"http://www.gruvercamiones.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.gruvercamiones.mx</a>",
+        "marker": "gomsa-camiones-car-veracruz",
+        "category": "veracruz",
+        "lat": "19.17542712",
+        "lng": "-96.1362145"
+    },
+    {
+        "title": "Gomsa Camiones (Córdoba)",
+        "content": "Carretera Córdoba Veracruz Km. 342\r\n\r\nCol. San Miguelito\r\n\r\n<a href=\"http://www.gruvercamiones.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.gruvercamiones.mx</a>",
+        "marker": "gomsa-camiones-cordoba",
+        "category": "veracruz",
+        "lat": "18.87507368",
+        "lng": "-96.91484974"
+    },
+    {
+        "title": "Gomsa Camiones (Veracruz)",
+        "content": "Veracruz, Ver.\r\nCarr. Veracruz - Cardel Km. 3.7 Col. Chalchihuecan C.P. 91808 Tel: 01 (229) 9 24 93 00\r\n\r\n<a href=\"http://www.gruvercamiones.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.gruvercamiones.mx</a>",
+        "marker": "gomsa-camiones-veracruz",
+        "category": "veracruz",
+        "lat": "19.21368343",
+        "lng": "-96.20764073"
+    },
+    {
+        "title": "Gomsa Camiones (Xalapa)",
+        "content": "Xalapa, Ver.\r\nAv. Xalapa No. 703 Col. Unidad del Valle C.P. 91010 Tel: 01 (228) 8 90 19 50 y 60\r\n\r\n<a href=\"http://www.gruvercamiones.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.gruvercamiones.mx</a>",
+        "marker": "gomsa-camiones-xalapa",
+        "category": "veracruz",
+        "lat": "19.55811854",
+        "lng": "-96.92907451"
+    },
+    {
+        "title": "GOMSA CAMIONES S.A. DE C.V. (GRUVER MORELOS)",
+        "content": "DISTRIBUIDOR AUTORIZADO 3S (Sales, Spare Parts & Service)\r\n\r\nDIRECCIÓN: Blvd. Cuauhnahuac Km. 10.5, Col. Pedregal de las Fuentes, Juitepec, Mor. C.P. 62550\r\n\r\nTel: (777) 688 9442\r\n",
+        "marker": "gomsa-camiones-s-a-de-c-v-gruver-morelos",
+        "category": "morelos",
+        "lat": "18.8894388",
+        "lng": "-99.16254174"
+    },
+    {
+        "title": "Gruver Camiones (CAR) Orizaba",
+        "content": "Av. Prolongación Oriente 6 No. 985-C\r\n\r\nCol. Rafael Alvarado",
+        "marker": "gruver-camiones-car-orizaba",
+        "category": "veracruz",
+        "lat": "18.85556617",
+        "lng": "-97.07532776"
+    },
+    {
+        "title": "Gruver Camiones Cuernavaca",
+        "content": "Boulevard Cuauhnahuac Km. 10.5\r\n\r\nCol. Pedregal de las Fuentes",
+        "marker": "gruver-camiones-cuernavaca",
+        "category": "morelos",
+        "lat": "18.8894388",
+        "lng": "-99.16254174"
+    },
+    {
+        "title": "Inter Motors (CAR Cd. Valles)",
+        "content": "Cd. Valles, S.L.P.\r\nCarr. Nacional México - Laredo No. 1625 Col. Fraccionamiento San Luis C.P. 79097 Tel: 01 (481) 3 82 04 01\r\n\r\n<a href=\"http://www.inter-motors.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.inter-motors.com.mx</a>",
+        "marker": "inter-motors-car-cd-valles",
+        "category": "san-luis-potosi",
+        "lat": "21.97182531",
+        "lng": "-99.00130744"
+    },
+    {
+        "title": "Inter Motors (CAR) S.L.P",
+        "content": "Av. Industrias 4530-A\r\n\r\nCol. Zona Industrial",
+        "marker": "inter-motors-car-s-l-p",
+        "category": "san-luis-potosi",
+        "lat": "22.07343833",
+        "lng": "-100.8735995"
+    },
+    {
+        "title": "Inter Motors (S.L.P)",
+        "content": "San Luis Potosí, S.L.P.\r\nCarr. Federal 57 Tramo San Luis Matehuala km 8.5 Col. Comunidad el Zapote C.P. 78430 Tel: 01 (444) 8 18 20 16\r\n\r\n<a href=\"http://www.inter-motors.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.inter-motors.com.mx</a>",
+        "marker": "inter-motors-s-l-p",
+        "category": "san-luis-potosi",
+        "lat": "22.20992405",
+        "lng": "-100.9169749"
+    },
+    {
+        "title": "Intercamiones (Durango)",
+        "content": "Durango, Dgo.\r\nBlvd. Francisco Villa No. 2600 Fracc. Guadalupe Victoria Infonavit C.P. 34220 Tel: 01 (618) 8 29 99 60 y 61\r\n\r\n<a href=\"http://www.inter-motors.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.inter-motors.com.mx</a>",
+        "marker": "intercamiones-durango",
+        "category": "durango",
+        "lat": "24.05124068",
+        "lng": "-104.6183966"
+    },
+    {
+        "title": "Jiménez Autocamiones (CAR Manzanillo)",
+        "content": "Boulevard Miguel de la Madrid Hurtado No. 300\r\n\r\nCol. Tapeixtles\r\n\r\n<a href=\"http://www.jimenezautocamiones.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.jimenezautocamiones.com.mx</a>",
+        "marker": "jimenez-autocamiones-car-manzanillo",
+        "category": "colima",
+        "lat": "19.07506239",
+        "lng": "-104.2838629"
+    },
+    {
+        "title": "Jiménez Autocamiones (CAR Tepatitlán)",
+        "content": "Tepatitlán, Jal.\r\nBlvd. Anacleto González Flores Sur No. 978 Col. El Carmen C.P. 47690 Tel: 01 (378) 7 81 87 08 y 98\r\n\r\n<a href=\"http://www.jimenezautocamiones.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.jimenezautocamiones.com.mx</a>",
+        "marker": "jimenez-autocamiones-car-tepatitlan",
+        "category": "jalisco",
+        "lat": "20.7999346",
+        "lng": "-102.7643107"
+    },
+    {
+        "title": "Jiménez Autocamiones (CAR) Lagos de Moreno",
+        "content": "Libramiento Norte No. 1334\r\n\r\nCol. Tepeyac",
+        "marker": "jimenez-autocamiones-car-lagos-de-moreno",
+        "category": "jalisco",
+        "lat": "21.37967927",
+        "lng": "-101.9169727"
+    },
+    {
+        "title": "Jiménez Autocamiones (CARS Puerto Vallarta)",
+        "content": "Puerto Vallarta, Jal.\r\nIndustrias 142 Col. Las Flores C.P. 48280 Tel: 01 (322) 2 21 37 19\r\n\r\n<a href=\"http://www.jimenezautocamiones.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.jimenezautocamiones.com.mx</a>",
+        "marker": "jimenez-autocamiones-cars-puerto-vallarta",
+        "category": "jalisco",
+        "lat": "20.66966062",
+        "lng": "-105.2468235"
+    },
+    {
+        "title": "Jiménez Autocamiones (CARS Tepic)",
+        "content": "Tepic, Nay.\r\nBlvd. Luis D. Colosio No. 122 Col. Cd. Industrial C.P. 67173 Tel: 01 (311) 2 11 67 04 y 2 11 54 22\r\n\r\n<a href=\"http://www.jimenezautocamiones.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.jimenezautocamiones.com.mx</a>",
+        "marker": "jimenez-autocamiones-cars-tepic",
+        "category": "nayarit",
+        "lat": "21.47430512",
+        "lng": "-104.8534914"
+    },
+    {
+        "title": "Jiménez Autocamiones (Colima)",
+        "content": "Colima, Col.\r\nBlvd. Carlos de la Madrid Bejar No. 602 Col. Centro C.P. 28000 Tel: 01 (312) 3 16 33 70\r\n\r\n<a href=\"http://www.jimenezautocamiones.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.jimenezautocamiones.com.mx</a>",
+        "marker": "jimenez-autocamiones-colima",
+        "category": "colima",
+        "lat": "19.22550134",
+        "lng": "-103.7229863"
+    },
+    {
+        "title": "Jiménez Autocamiones (Guadalajara)",
+        "content": "Calzada Jesus Gonzalez Gallo 289\r\n\r\nCol. San Carlos\r\n\r\n<a href=\"http://www.jimenezautocamiones.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.jimenezautocamiones.com.mx</a>",
+        "marker": "jimenez-autocamiones-guadalajara-ii",
+        "category": "jalisco",
+        "lat": "20.6578463",
+        "lng": "-103.3433182"
+    },
+    {
+        "title": "Jiménez Autocamiones (Zapopan)",
+        "content": "Zapopan, Jal.\r\nProl. Av. Vallarta No. 9997-F Col. Rancho Contento C.P. 45222 Tel: 01 (33) 37 77 13 30 y 33\r\n\r\n<a href=\"http://www.jimenezautocamiones.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.jimenezautocamiones.com.mx</a>",
+        "marker": "jimenez-autocamiones-zapopan",
+        "category": "jalisco",
+        "lat": "20.708665",
+        "lng": "-103.4670639"
+    },
+    {
+        "title": "JIMÉNEZ AUTOCAMIONES S.A. DE C.V. (CAR LAGOS DE MORENO)",
+        "content": "CENTRO AUTORIZADO DE REFACCIONES\r\n\r\nDIRECCIÓN: Carr. Libramiento Norte #1334 Col. Tepeyac Lagos de Moreno, Jal. C.P. 47410\r\n\r\nTel: (33) 2353 2729\r\n",
+        "marker": "jimenez-autocamiones-s-a-de-c-v-car-lagos-de-moreno",
+        "category": "jalisco",
+        "lat": "21.37968926",
+        "lng": "-101.9169941"
+    },
+    {
+        "title": "Servicios de la Riva (Tapachula)",
+        "content": "Tapachula, Chis.\r\nCarr. a Talismán Km. 2 Col. Magisterial C.P. 30770 Tel: 01 (962) 6 26 23 50, 6 28 65 39 y 6 25 28 00\r\n\r\n<a href=\"http://www.sriva.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.sriva.com.mx</a>",
+        "marker": "servicios-de-la-riva-tapachula",
+        "category": "chiapas",
+        "lat": "14.8977259",
+        "lng": "-92.24330013"
+    },
+    {
+        "title": "Servicios de la Riva (Tuxtla)",
+        "content": "Túxtla Gutiérrez, Chis.\r\nCarr. Panamericana Km. 1078 Col. Plan de Ayala C.P. 29020 Tel: 01 (961) 6 15 30 67 al 70\r\n\r\n<a href=\"http://www.sriva.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.sriva.com.mx</a>",
+        "marker": "servicios-de-la-riva-tuxtla",
+        "category": "chiapas",
+        "lat": "16.76130633",
+        "lng": "-93.1819579"
+    },
+    {
+        "title": "Soluciones al Transporte (CAR-I)",
+        "content": "Tezoyuca, Méx.\r\nCarr. Texcoco - Lechería Km. 28.75 C.P. 56000 Tel: 01 (595) 9 53 22 72, 9 53 20 56 y 9 53 22 40",
+        "marker": "soluciones-al-transporte-car-i",
+        "category": "mexico",
+        "lat": "19.56740023",
+        "lng": "-98.9130223"
+    },
+    {
+        "title": "Tecno Diesel del Norte (CAR Piedras Negras)",
+        "content": "Libramiento Manuel Pérez Treviño no. 251\r\n\r\nCol. Lomas del Norte\r\n\r\n<a href=\"http://www.tecnodiesel.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.tecnodiesel.com</a>",
+        "marker": "tecno-diesel-del-norte-car-piedras-negras",
+        "category": "coahuila",
+        "lat": "28.6754492",
+        "lng": "-100.5518202"
+    },
+    {
+        "title": "Tecno Diesel del Norte (CAR Sabinas)",
+        "content": "Sabinas, Coah.\r\nBlvd. Paseo de los Leones No. 2520 Col. Fundadores C.P. 26740 Tel: 01 (861) 6 13 07 37\r\n\r\n<a href=\"http://www.tecnodiesel.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.tecnodiesel.com</a>",
+        "marker": "tecno-diesel-del-norte-car-sabinas",
+        "category": "coahuila",
+        "lat": "27.86444279",
+        "lng": "-101.1288337"
+    },
+    {
+        "title": "Tecno Diesel del Norte (Gómez Palacio)",
+        "content": "Blvd. Armando del Castillo Franco No. 117 Col. Zona industrial y secciones\r\n\r\n<a href=\"http://www.tecnodiesel.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.tecnodiesel.com</a>",
+        "marker": "tecno-diesel-del-norte-gomez-palacio",
+        "category": "durango",
+        "lat": "25.57286492",
+        "lng": "-103.4645355"
+    },
+    {
+        "title": "Tecno Diesel del Norte (Ramos Arizpe)",
+        "content": "Ramos Arizpe, Coah.\r\nCarr. Monterrey - Saltillo Km. 11.5 C.P. 25900 Tel: 01 (844) 8 96 80 70 al 73\r\n\r\n<a href=\"http://www.tecnodiesel.com\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.tecnodiesel.com</a>",
+        "marker": "tecno-diesel-del-norte-ramos-arizpe",
+        "category": "coahuila",
+        "lat": "25.53567671",
+        "lng": "-100.948607"
+    },
+    {
+        "title": "Tecno Diesel del Norte (Torreón)",
+        "content": "Periférico Raúl López Sánchez no. 11600\r\n\r\nCol. Ciudad Nazas\r\n\r\n<a href=\"http://www.tecnodiesel.com\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.tecnodiesel.com</a>",
+        "marker": "tecno-diesel-del-norte-torreon",
+        "category": "coahuila",
+        "lat": "25.5613619",
+        "lng": "-103.3816999"
+    },
+    {
+        "title": "Tracto Refacciones Allende (CARS-I Allende)",
+        "content": "Allende, N.L.\r\nCarr. Nacional No.1525 Nte. Col. Centro C.P. 67350 Tel: 01 (826) 2 68 22 99 y 2 68 38 00",
+        "marker": "tracto-refacciones-allende-cars-i-allende",
+        "category": "nuevo-leon",
+        "lat": "25.28636608",
+        "lng": "-100.0333767"
+    },
+    {
+        "title": "VEHÍCULOS COMERCIALES RIVERA, S.A. DE C.V. (Iztapalapa) (CARS)",
+        "content": "<strong>Eje 6 Sur No. 1057, Col. Barrio San Pedro, Iztapalapa, Ciudad de México, C.P. 1900</strong>\r\n\r\nTeléfono +52 55 76 02 22 10",
+        "marker": "vehiculos-comerciales-rivera-s-a-de-c-v-iztapalapa-cars",
+        "category": "mexico",
+        "lat": "19.36957389",
+        "lng": "-99.084037"
+    },
+    {
+        "title": "Zapata Camiones (Altamira)",
+        "content": "Autopista Tampico-Altamira 2102\r\n\r\nCol. Lago de la puerta\r\n\r\n<a href=\"http://www.zapata.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.zapata.com.mx</a>",
+        "marker": "zapata-camiones-altamira",
+        "category": "tamaulipas",
+        "lat": "22.35505556",
+        "lng": "-97.88885779"
+    },
+    {
+        "title": "Zapata Camiones (Apodaca)",
+        "content": "Apodaca, N.L.\r\nCarr. Monterrey - Laredo Km. 19 Col. Santa Rosa C.P. 66600 Tel: 01 (81) 83 05 45 00\r\n\r\n<a href=\"http://www.zapata.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.zapata.com.mx</a>",
+        "marker": "zapata-camiones-monterrey",
+        "category": "nuevo-leon",
+        "lat": "25.84523573",
+        "lng": "-100.2464434"
+    },
+    {
+        "title": "Zapata Camiones (Celaya)",
+        "content": "Carretera Celaya-Villagran Km 5.1\r\nColonia Segunda Fracción de Crespo, 38110\r\nCelaya, Gto.\r\n\r\n<strong>Teléfono:</strong> 461 689 1108\r\n\r\n<a href=\"http://www.zapata.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.zapata.com.mx</a>",
+        "marker": "zapata-camiones-celaya",
+        "category": "guanajuato",
+        "lat": "20.51716803",
+        "lng": "-100.8971253"
+    },
+    {
+        "title": "Zapata Camiones (Guadalajara)",
+        "content": "AV. Dr. R. Michel 2604\r\n\r\nCol. Alamo Industrial\r\n\r\n<a href=\"http://www.zapata.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.zapata.com.mx</a>",
+        "marker": "zapata-camiones-guadalajara-ii",
+        "category": "jalisco",
+        "lat": "20.63104597",
+        "lng": "-103.3272349"
+    },
+    {
+        "title": "Zapata Camiones (León)",
+        "content": "León, Gto.\r\nBlvd. Aeropuerto No. 744 Col. San Jose El Alto C.P. 37660 Tel: 01 (477) 7 10 00 16\r\n\r\n<a href=\"http://www.zapata.com.mx\" target= \"_blank\" rel=\"noopener noreferrer\">http://www.zapata.com.mx</a>",
+        "marker": "zapata-camiones-leon",
+        "category": "guanajuato",
+        "lat": "21.08190873",
+        "lng": "-101.6109442"
+    },
+    {
+        "title": "Zapata Camiones (Querétaro)",
+        "content": "Bernardo Quintana 588\r\n\r\nCol. San Pedrito Peñuelas\r\n\r\n<a href=\"http://www.zapata.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.zapata.com.mx</a>",
+        "marker": "zapata-camiones-queretaro",
+        "category": "queretaro",
+        "lat": "20.61794051",
+        "lng": "-100.403411"
+    },
+    {
+        "title": "Zapata Camiones (Texcoco)",
+        "content": "Carr. Los Reyes Texcoco Lecheria KM 23\r\n\r\n<a href=\"http://www.zapata.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.zapata.com.mx</a>",
+        "marker": "zapata-camiones-aeropuerto",
+        "category": "mexico",
+        "lat": "19.52541659",
+        "lng": "-98.89785531"
+    },
+    {
+        "title": "Zapata Camiones (Tlalnepantla)",
+        "content": "1 de Mayo Esq. Fulton s/n\r\n\r\nCol. Centro Industrial\r\n\r\n<a href=\"http://www.zapata.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.zapata.com.mx</a>",
+        "marker": "zapata-camiones-tlalnepantla",
+        "category": "mexico",
+        "lat": "19.54029526",
+        "lng": "-99.20317418"
+    },
+    {
+        "title": "Zapata Camiones (Zapopan)",
+        "content": "Zapopan, Jal.\r\nAv. Periférico Sur No. 1823 Col. El Briceño C.P. 45236 Tel: 01 (33) 31 80 85 42 al 47\r\n\r\n<a href=\"http://www.zapata.com.mx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.zapata.com.mx</a>",
+        "marker": "zapata-camiones-guadalajara",
+        "category": "jalisco",
+        "lat": "20.62421873",
+        "lng": "-103.4326589"
+    }
+]

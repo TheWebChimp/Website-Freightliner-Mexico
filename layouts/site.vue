@@ -268,10 +268,23 @@
 				</div>
 			</div>
 		</footer>
+
+		<cookie-consent>
+			<template slot="message">
+				<div class="cookie-consent-message">
+					Este sitio utiliza cookies. Para conocer más de nuestras cookies, <nuxt-link to="/uso-de-cookies" href="#">lee aquí</nuxt-link>
+				</div>
+			</template>
+			<template slot="button">
+				<button class="button button-primary">Accept</button>
+			</template>
+		</cookie-consent>
 	</div>
 </template>
 
 <script>
+
+	import CookieConsent from 'vue-cookieconsent-component';
 
 	export default {
 		data: () => ({
@@ -279,6 +292,9 @@
 			products: false,
 			contactModal: false,
 		}),
+		components: {
+			CookieConsent
+		},
 		mounted() {
 
 			const obj = this;

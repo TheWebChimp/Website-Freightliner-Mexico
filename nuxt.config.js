@@ -30,7 +30,8 @@ export default {
 			{ type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.ui.min.js' },
 			{ type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js' },
 			{ type: 'text/javascript', src: 'https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js' },
-			{ type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.2/jquery.hoverIntent.min.js' }
+			{ type: 'text/javascript', src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.2/jquery.hoverIntent.min.js' },
+			//{ type: 'text/javascript', src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBC0yZG8rn2gzejl9UvTgl_xTqT3Z4XhFI' }
 		]
 	},
 
@@ -79,7 +80,10 @@ export default {
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [
 		// https://go.nuxtjs.dev/axios
-		'@nuxtjs/axios'
+		'@nuxtjs/axios',
+		['nuxt-gmaps', {
+			key: 'AIzaSyBC0yZG8rn2gzejl9UvTgl_xTqT3Z4XhFI'
+		}]
 	],
 
 	colorMode: {
