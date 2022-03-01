@@ -91,13 +91,13 @@
 							</div>
 
 							<div class="row">
-								<div class="col col-2 col-xs-6">
+								<div class="col col-sm-2 col-xs-6">
 									<div class="form-group">
 										<label for="numero_exterior" class="control-label"> Número exterior</label>
 										<input type="text" name="numero_exterior" id="numero_exterior" value="" class="input-block form-control">
 									</div>
 								</div>
-								<div class="col col-2 col-xs-6">
+								<div class="col col-sm-2 col-xs-6">
 									<div class="form-group">
 										<label for="numero_interior" class="control-label">Número interior</label>
 										<input type="text" name="numero_interior" id="numero_interior" value="" class="input-block form-control">

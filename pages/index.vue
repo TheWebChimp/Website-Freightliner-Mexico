@@ -3,6 +3,10 @@
 		<div class="block block-splash">
 			<slick class="splash-carrousel">
 				<div>
+					<img class="show-desktop" src="~/assets/images/template/slide5.jpg" alt="">
+					<img class="show-mobile" src="~/assets/images/template/slide5-mobile.jpg" alt="">
+				</div>
+				<div>
 					<img class="show-desktop" src="~/assets/images/template/slide1.jpg" alt="">
 					<img class="show-mobile" src="~/assets/images/template/slide1-mobile.jpg" alt="">
 				</div>

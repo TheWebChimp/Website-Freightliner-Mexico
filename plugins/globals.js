@@ -12,6 +12,11 @@ Vue.component('cookie-consent', cookieconsent);
 /* Other Stuff */
 /* ---------------------------------------------------------------------------------------------- */
 
+import VueWaypoint from 'vue-waypoint';
+
+// Waypoint plugin
+Vue.use(VueWaypoint);
+
 //import ResponsiveContainer from '~/assets/scripts/ResponsiveContainer.js';
 //Vue.component('rcontainer', ResponsiveContainer);
 

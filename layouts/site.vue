@@ -1,6 +1,6 @@
 <template>
 	<div class="site">
-		<header class="site-header">
+		<header class="site-header" :class="{ 'is-active': menuActive }">
 			<div class="header-bar-1">
 				<div class="inner">
 					<div class="px-default py-half">
@@ -36,17 +36,15 @@
 			</div>
 			<div class="header-bar-2">
 				<div class="inner boxfix-vert">
-					<div class="m-default">
-						<ul class="menu">
-							<li class="menu-item menu-item-productos"><a href="#">Productos</a></li>
-							<li class="menu-item"><nuxt-link to="/distribuidores">Distribuidores</nuxt-link></li>
-							<li class="menu-item"><a href="https://postventa-freightliner.com/" target="_blank">Postventa</a></li>
-							<li class="menu-item"><nuxt-link to="/financiamiento">Financiamiento</nuxt-link></li>
-							<li class="menu-item"><a href="https://www.selectrucksmexico.com/" target="_blank">Seminuevo</a></li>
-							<li class="menu-item"><a href="https://www.mercedes-benz.com.mx/vans/es/sprinter" target="_blank">Vans</a></li>
-							<li class="menu-item"><a href="https://careersdaimler.com.mx/" target="_blank">Careers</a></li>
-						</ul>
-					</div>
+					<ul class="menu">
+						<li class="menu-item menu-item-productos"><a href="#">Productos</a></li>
+						<li class="menu-item"><nuxt-link to="/distribuidores">Distribuidores</nuxt-link></li>
+						<li class="menu-item"><a href="https://postventa-freightliner.com/" target="_blank">Postventa</a></li>
+						<li class="menu-item"><nuxt-link to="/financiamiento">Financiamiento</nuxt-link></li>
+						<li class="menu-item"><a href="https://www.selectrucksmexico.com/" target="_blank">Seminuevo</a></li>
+						<li class="menu-item"><a href="https://www.mercedes-benz.com.mx/vans/es/sprinter" target="_blank">Vans</a></li>
+						<li class="menu-item"><a href="https://careersdaimler.com.mx/" target="_blank">Careers</a></li>
+					</ul>
 				</div>
 			</div>
 
@@ -94,6 +92,8 @@
 				</div>
 			</div>
 		</header>
+
+		<div class="header-waypoint" v-waypoint="{ active: true, callback: onWaypoint, options: intersectionOptions }"></div>
 
 		<a class="contact-button" @click.prevent="contactModal = true">
 			<i class="fa fa-envelope" />
@@ -276,7 +276,7 @@
 				</div>
 			</template>
 			<template slot="button">
-				<button class="button button-primary">Accept</button>
+				<button class="button button-primary">Aceptar</button>
 			</template>
 		</cookie-consent>
 	</div>
@@ -291,6 +291,11 @@
 			menuActive: false,
 			products: false,
 			contactModal: false,
+			intersectionOptions: {
+				root: null,
+				rootMargin: '0px 0px 0px 0px',
+				threshold: [0, 1]
+			}
 		}),
 		components: {
 			CookieConsent
@@ -314,6 +319,15 @@
 			);
 		},
 		methods: {
+			onWaypoint ({ going, direction }) {
+				if (going === this.$waypointMap.GOING_IN) {
+					console.log('waypoint going in!');
+					this.menuActive = false;
+				} else {
+					console.log('waypoint going out!');
+					this.menuActive = true;
+				}
+			}
 		}
 	}
 </script>
@@ -330,7 +344,7 @@
 		min-height: 100vh;
 		display: flex;
 		flex-direction: column;
-		font-family: 'Inter', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 	}
 
 	#__nuxt, #__layout {
@@ -351,6 +365,7 @@
 
 	.media {
 
+		overflow: hidden;
 		text-align: center;
 
 		li {
@@ -438,6 +453,7 @@
 
 				.phone {
 
+					transition: all 500ms;
 					background: @brand-2;
 					border-radius: @radius-round;
 					font-size: 0.8rem;
@@ -466,7 +482,9 @@
 
 			.menu {
 
+				margin: 10px;
 				display: flex;
+				transition: all 500ms;
 				justify-content: space-between;
 
 				.menu-item {
@@ -494,11 +512,52 @@
 			transition: margin-top 500ms;
 			margin-top: -100vh;
 
+			.producto-image {
+
+				margin-bottom: @margin-half;
+			}
+
+			h3 {
+
+				font-weight: bold;
+				text-transform: uppercase;
+				font-size: 0.8rem;
+			}
+
 			&.active {
 
 				margin-top: 0;
 			}
 		}
+
+		&.is-active {
+
+			.social {
+
+				.phone {
+
+					margin-bottom: 0;
+				}
+
+				.media {
+
+					display: none;
+				}
+			}
+
+			.menu {
+
+				margin: 0;
+			}
+		}
+	}
+
+	.header-waypoint {
+
+		position: absolute;
+		top: 100px;
+		width: 100px;
+		z-index: 1000;
 	}
 
 	.contact-button {
@@ -557,12 +616,12 @@
 
 		@media @md-n-above {
 
-			padding-top: 121px;
+			padding-top: 108px;
 		}
 
 		@media @lg-n-above {
 
-			padding-top: 159px;
+			padding-top: 147px;
 		}
 
 		& > div {

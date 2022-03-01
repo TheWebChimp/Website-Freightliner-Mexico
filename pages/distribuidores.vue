@@ -70,12 +70,12 @@
 									:position="{lat: distribuidor.lat || 0, lng: distribuidor.lng || 0}"
 									v-if="!state || distribuidor.category == state"
 								>
-									<g-map-info-window :options="{ maxWidth: 200 }">
+									<!-- <g-map-info-window :options="{ maxWidth: 200 }">
 										<h2>{{ distribuidor.title }}</h2>
 										<p class="mb-default" v-html="distribuidor.content.replace(/(?:\r\n|\r|\n)/g, '<br>')"></p>
 
 										<p><a :href="`https://maps.google.com/?q=${ distribuidor.lat || 0 },${ distribuidor.lng || 0 }`" target="_blank" class="button button-primary button-block button-small"><i class="fa fa-fw fa-map-marker" /> Abrir en Google Maps</a></p>
-									</g-map-info-window>
+									</g-map-info-window> -->
 								</g-map-marker>
 							</g-map>
 						</div>

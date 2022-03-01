@@ -20,7 +20,8 @@ export default {
 			{ name: 'format-detection', content: 'telephone=no' }
 		],
 		link: [
-			{ rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' },
+			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+			{ rel: 'icon', type: 'image/png', href: '/favicon.png' },
 			{ rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' },
 			{ rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css' },
 		],
@@ -40,6 +41,7 @@ export default {
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
+		{ src: '~/plugins/globals.js' },
 	],
 
 	// Shared style resources across project
@@ -86,7 +88,7 @@ export default {
 		}]
 	],
 
-	colorMode: {
+	/*colorMode: {
 		preference: 'system', // default value of $colorMode.preference
 		fallback: 'dark', // fallback value if not system preference found
 		hid: 'nuxt-color-mode-script',
@@ -95,7 +97,7 @@ export default {
 		classPrefix: '',
 		classSuffix: '-mode',
 		storageKey: 'nuxt-color-mode'
-	},
+	},*/
 
 	/*i18n: {
 		locales: [
@@ -109,6 +111,7 @@ export default {
 
 	googleFonts: {
 		families: {
+			'Open Sans': [300, 400, 500, 700, 900],
 			Inter: [300, 400, 500, 700, 900],
 		},
 	},
