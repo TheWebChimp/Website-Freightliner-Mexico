@@ -107,7 +107,7 @@
 					<div class="the-content mb-default">
 						<p>Apreciamos tus comentarios. Por favor llena el formulario y un ejecutivo de Freightliner se pondrá en contacto contigo.</p>
 					</div>
-					<form data-form="Uso de Formulario de contacto Popup" action="https://www.freightliner.com.mx/wp-admin/admin-ajax.php" method="post" data-submit="ajax">
+					<form data-form="Uso de Formulario de contacto Popup" @submit="sendForm" method="post">
 						<input type="hidden" name="action" value="contacto_producto">
 
 						<div class="row row-md">
@@ -115,14 +115,14 @@
 							<div class="col col-6 col-md-6">
 								<div class="form-group">
 									<label for="nombre" class="control-label">Nombre <span class="required">*</span></label>
-									<input type="text" name="nombre" id="nombre" value="" class="input-block form-control" data-validate="required">
+									<input type="text" v-model="modalForm.name" class="input-block form-control">
 								</div>
 							</div>
 
 							<div class="col col-6 col-md-6">
 								<div class="form-group">
 									<label for="apellidos" class="control-label">Apellidos <span class="required">*</span></label>
-									<input type="text" name="apellidos" id="apellidos" value="" class="input-block form-control" data-validate="required">
+									<input type="text" v-model="modalForm.lastname" class="input-block form-control">
 								</div>
 							</div>
 
@@ -133,14 +133,14 @@
 							<div class="col col-6 col-md-6">
 								<div class="form-group">
 									<label for="correo" class="control-label">Correo electrónico <span class="required">*</span></label>
-									<input type="text" name="correo" id="correo" value="" class="input-block form-control" data-validate="required">
+									<input type="text" v-model="modalForm.email" class="input-block form-control">
 								</div>
 							</div>
 
 							<div class="col col-6 col-md-6">
 								<div class="form-group">
 									<label for="telefono" class="control-label">Teléfono </label>
-									<input type="text" name="telefono" id="telefono" value="" class="input-block form-control">
+									<input type="text" v-model="modalForm.phone" class="input-block form-control">
 								</div>
 							</div>
 
@@ -150,7 +150,7 @@
 							<div class="col col-12 col-md-12">
 								<div class="form-group">
 									<label for="ciudad" class="control-label">Ciudad <span class="required">*</span></label>
-									<select name="ciudad" id="ciudad" data-validate="required" class="form-control input-block">
+									<select v-model="modalForm.city" class="form-control input-block">
 										<option value="">Ciudad</option>
 										<option value="Baja California">Baja California</option>
 										<option value="Baja California Sur">Baja California Sur</option>
@@ -192,7 +192,7 @@
 							<div class="col col-12 col-md-12">
 								<div class="form-group">
 									<label for="descripcion" class="control-label">¿Como podremos ayudarte?</label>
-									<textarea rows="4" cols="50" name="descripcion" id="descripcion" value="" class="input-block form-control"></textarea>
+									<textarea rows="4" cols="50" v-model="modalForm.description" value="" class="input-block form-control"></textarea>
 								</div>
 							</div>
 						</div>
@@ -201,7 +201,7 @@
 							<div class="col col-12 col-md-12">
 								<div class="form-group">
 									<label class="checkbox">
-										<input type="checkbox" data-validate="required" class="datos" id="datos" name="datos">
+										<input type="checkbox" class="datos">
 										<span>Autoriza el uso de sus datos personales</span>
 									</label>
 								</div>
@@ -291,6 +291,14 @@
 			menuActive: false,
 			products: false,
 			contactModal: false,
+			modalForm: {
+				name: '',
+				lastname: '',
+				email: '',
+				phone: '',
+				city: '',
+				description: '',
+			},
 			intersectionOptions: {
 				root: null,
 				rootMargin: '0px 0px 0px 0px',
@@ -327,6 +335,11 @@
 					console.log('waypoint going out!');
 					this.menuActive = true;
 				}
+			},
+			async sendForm(e) {
+
+				e.preventDefault();
+				await this.axios.post('https://www.freightliner.com.mx/wp-admin/admin-ajax.php', this.modalForm);
 			}
 		}
 	}
